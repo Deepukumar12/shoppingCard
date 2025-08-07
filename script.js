@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleThemeBtn.addEventListener("click", () => {
         document.body.classList.toggle("dark");
         toggleThemeBtn.textContent =
-            document.body.classList.contains("dark") ? "☀️ Light Mode" : "🌙 Dark Mode";
+            document.body.classList.contains("dark") ? " Light Mode" : " Dark Mode";
     });
 
     // Initial render
